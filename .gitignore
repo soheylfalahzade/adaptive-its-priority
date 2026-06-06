@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+yolo11m.pt
+yolov8x_custom.pt
