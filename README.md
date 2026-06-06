@@ -2,6 +2,8 @@
 
 An end-to-end intelligent transportation framework that dynamically prioritizes emergency vehicles (such as ambulances) at complex urban intersections. This project integrates 3D physical environment simulation, microscopic traffic flow, and deep learning perception in a closed-loop control system.
 
+![Ambulance Detection Demo](assets/demo_detection.jpg)
+
 ---
 
 ## 🚀 Key Performance Indicators (KPIs)
