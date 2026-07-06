@@ -39,7 +39,10 @@ class CoSimulationBridge:
         self.carla_port = carla_port
         
         # مقداردهی به موتورهای پردازش و کنترل که در مراحل قبلی ساختیم
-        self.perception_engine = YOLOPerceptionEngine(model_path="yolo11m.pt")
+        self.perception_engine = YOLOPerceptionEngine(
+            detector_model_path="yolo11m.pt",
+            classifier_model_path="perception/weights/ambulance_classifier.pt",
+        )
         self.traffic_controller = AdaptiveTrafficController(num_lanes=4)
         
     def run_simulation_demo(self, steps: int = 20):
